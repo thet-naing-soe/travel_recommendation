@@ -1,6 +1,6 @@
 # ✈️ Travel Recommendation Web Application
 
-This project is the final hands-on lab for the **IBM Full Stack Software Developer** course. It is a dynamic web application that allows users to search for travel recommendations including Countries, Beaches, and Temples.
+This project is a dynamic web application that allows users to search for travel recommendations including Countries, Beaches, and Temples.
 
 ## 🌟 Features
 - **Search Functionality:** Search specifically for "beach", "temple", or "country".
