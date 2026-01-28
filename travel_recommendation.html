@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Travel Recommendations</title>
+    <link rel="stylesheet" href="travel_recommendation.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search (beach / temple / country)"
+        />
+        <button onclick="search()">Search</button>
+        <button onclick="clearResults()">Clear</button>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="container">
+      <h1>Explore Dream Destinations</h1>
+      <p>
+        Find inspiration for your next adventure — discover beaches, temples,
+        and countries across the world!
+      </p>
+      <div id="results" class="results"></div>
+    </div>
+
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>
